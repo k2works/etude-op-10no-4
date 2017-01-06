@@ -78,6 +78,16 @@ npm start
 npm run start:dev
 ```
 
+### Herokuデプロイ
+
+```
+npm install --save express
+heroku create op10-no3
+git push heroku master
+```
+
+`https://op10-no3.herokuapp.com/`で動作を確認する
+
 # 参照 #
 + [Hot Module Replacement - React EDIT THIS PAGE](https://webpack.js.org/guides/hmr-react/)
 + [Deploying your React app to Heroku with Webpack](http://ditrospecta.com/javascript/react/es6/webpack/heroku/2015/08/08/deploying-react-webpack-heroku.html)
