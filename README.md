@@ -38,6 +38,9 @@ npm install --save-dev babel@6.5.2 babel-core@6.13.2 babel-loader@6.2.4 babel-pr
 npm install --save react@15.3.0 react-dom@15.3.0
 ```
 
+### Babel Config
+
+
 ## アプリケーション配置
 
 # 参照 #
