@@ -23,6 +23,12 @@ vagrant up
 vagrant ssh
 ```
 
+### Dockerのセットアップ
+```
+cd /vagrant/
+docker-compose build
+```
+
 ## アプリケーション開発
 
 ## アプリケーション配置
