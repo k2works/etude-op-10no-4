@@ -40,6 +40,12 @@ npm install --save react@15.3.0 react-dom@15.3.0
 
 ### Babel Config
 
+### webpack Config
+```
+npm start
+```
+
+`http://192.168.30.1:3000/webpack-dev-server/`で動作を確認する(まだエラー)
 
 ## アプリケーション配置
 
