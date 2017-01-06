@@ -49,6 +49,10 @@ npm start
 
 ### Code
 
+### index.html
+
+
+`npm start`再起動して`http://192.168.30.1:3000/webpack-dev-server/`で動作を確認する
 
 ## アプリケーション配置
 
