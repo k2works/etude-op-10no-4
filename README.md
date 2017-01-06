@@ -56,6 +56,12 @@ npm start
 
 ## アプリケーション配置
 
+### Webpack
+
+```
+npm install --save-dev webpack-hot-middleware
+```
+
 # 参照 #
 + [Hot Module Replacement - React EDIT THIS PAGE](https://webpack.js.org/guides/hmr-react/)
 + [Deploying your React app to Heroku with Webpack](http://ditrospecta.com/javascript/react/es6/webpack/heroku/2015/08/08/deploying-react-webpack-heroku.html)
