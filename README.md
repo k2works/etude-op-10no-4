@@ -1,6 +1,8 @@
 Étude Op. 10, No. 3 Tristesse
 ===================
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 # 目的 #
 webpackを使ったRact.jsアプリケーションの開発
 
