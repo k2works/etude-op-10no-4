@@ -53,8 +53,14 @@ npm start
 
 ### index.html
 
-
 `npm start`再起動して`http://192.168.30.1:3000/webpack-dev-server/`で動作を確認する
+
+### テスト環境のセットアップ
+```
+npm install -g quik
+npm install -g mocha
+npm install --save-dev chai sinon enzyme jsdom mocha quik react-addons-test-utils babel-cli
+```
 
 ## アプリケーション配置
 
@@ -93,3 +99,4 @@ git push heroku master
 # 参照 #
 + [Hot Module Replacement - React EDIT THIS PAGE](https://webpack.js.org/guides/hmr-react/)
 + [Deploying your React app to Heroku with Webpack](http://ditrospecta.com/javascript/react/es6/webpack/heroku/2015/08/08/deploying-react-webpack-heroku.html)
++ [ReactでTDD（テスト駆動開発）を始めよう : 環境構築からテスト作成、機能実装までの詳解ガイド](http://postd.cc/getting-started-with-tdd-in-react/)
