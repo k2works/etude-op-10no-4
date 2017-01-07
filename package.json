@@ -1,9 +1,10 @@
 {
   "name": "Tristesse",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Étude Op. 10, No. 3 Tristesse",
   "scripts": {
     "test": "mocha --require ./test/setup.js",
+    "test:watch": "npm run test -- --watch",
     "start:dev": "webpack-dev-server --host 0.0.0.0 --public 192.168.30.1:3000 --watch-poll --config ./webpack.dev.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node ./src/app.js"

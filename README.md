@@ -62,6 +62,21 @@ npm install -g mocha
 npm install --save-dev chai sinon enzyme jsdom mocha quik react-addons-test-utils babel-cli
 ```
 
+### 環境をテストする
+
+#### Mochaの動作のテスト
+```
+npm test
+```
+```
+npm run test:watch
+```
+
+#### Quikの機能のテスト
+```
+quik
+```
+
 ## アプリケーション配置
 
 ### Webpack
