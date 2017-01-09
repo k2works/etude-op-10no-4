@@ -6,7 +6,6 @@ services:
      - "3000:3000"
     volumes:
      - .:/code
-    command: npm run build
     command: npm start
   proxy:
     image: nginx:1.11
