@@ -35,6 +35,12 @@ docker-compose build
 ```
 
 ## アプリケーション開発
+### Gemfileの追加
+```
+cd /vagrant/
+bundle install
+```
+
 
 ## アプリケーション配置
 
