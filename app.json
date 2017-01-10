@@ -1,6 +1,6 @@
 {
-  "name": "Tristesse",
+  "name": "Torrent",
   "description": "React development using webpack",
-  "repository": "https://github.com/k2works/etude-op10-no3",
-  "keywords": ["node", "express", "webpack","react"]
+  "repository": "https://github.com/k2works/etude-op10-no4",
+  "keywords": ["node", "ruby", "webpack","react","sinatra"]
 }
