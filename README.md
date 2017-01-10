@@ -41,6 +41,11 @@ cd /vagrant/
 bundle install
 ```
 
+### Sinatraアプリケーションのセットアップ
+```
+bundle exec foreman start
+```
+
 
 ## アプリケーション配置
 
