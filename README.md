@@ -46,6 +46,11 @@ bundle install
 bundle exec foreman start
 ```
 
+### テスト環境のセットアップ
+```
+bundle exec rspec
+```
+
 
 ## アプリケーション配置
 
