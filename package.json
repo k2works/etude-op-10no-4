@@ -6,6 +6,7 @@
     "test": "mocha --require ./test/setup.js",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --host 0.0.0.0 --public 192.168.30.1:3000 --watch-poll --config ./webpack.dev.config.js",
+    "ruby": "rackup -o 0.0.0.0 -p 4567 -s thin",
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors"
   },
   "repository": {

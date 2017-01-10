@@ -43,7 +43,7 @@ bundle install
 
 ### Sinatraアプリケーションのセットアップ
 ```
-bundle exec foreman start
+npm run ruby
 ```
 
 ### テスト環境のセットアップ
@@ -57,6 +57,10 @@ npm start
 ```
 
 ## アプリケーション配置
+```
+heroku create op10-no4
+git push heroku master
+```
 
 # 参照 #
 + [Étude Op. 10, No. 3 Tristesse](https://github.com/k2works/etude-op10-no3)
