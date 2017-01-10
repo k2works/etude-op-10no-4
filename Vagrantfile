@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "hiroshima-arc/manhattan"
-  config.vm.box_version = "0.2.0"
+  config.vm.box_version = "0.3.0"
 
   config.vm.network :forwarded_port, guest:8080, host:8080, id:"jenkins"
   config.vm.network :forwarded_port, guest:80, host:8888, id:"nginx"

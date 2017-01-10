@@ -52,6 +52,9 @@ bundle exec rspec
 ```
 
 ### Nodeアプリケーションの修正
+```
+npm start
+```
 
 ## アプリケーション配置
 
